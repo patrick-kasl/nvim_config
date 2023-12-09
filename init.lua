@@ -1,0 +1,2 @@
+require('pkasl')
+print('hello')
