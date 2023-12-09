@@ -1,2 +1,2 @@
 require('pkasl')
-print('hello')
+--print('hello')
