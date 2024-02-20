@@ -3,7 +3,9 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
   -- Packer can manage itself
  use 'wbthomason/packer.nvim'
-
+ use 'nvim-tree/nvim-tree.lua'
+ use 'nvim-tree/nvim-web-devicons'
+ use 'lervag/vimtex'
  use {
 	'nvim-telescope/telescope.nvim', tag = '0.1.5',
 	requires = { {'nvim-lua/plenary.nvim'} }
@@ -24,6 +26,8 @@ return require('packer').startup(function(use)
     }
  use 'mbbill/undotree'
  use 'tpope/vim-fugitive'
+ use 'ThePrimeagen/vim-be-good'
+ --use 'lspconfig'
  use {
   'VonHeikemen/lsp-zero.nvim',
   branch = 'v3.x',
